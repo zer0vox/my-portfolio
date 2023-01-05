@@ -1,372 +1,433 @@
-
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Personal Website</title>
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@3.3.7/dist/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@3.3.7/dist/css/bootstrap.min.css"
+        integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" href="./css/owl.carousel.css">
+    <link rel="stylesheet" href="./css/style.css">
 
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
-    <link href="./slider/owl.carousel.css" rel="stylesheet">
-    <link rel="stylesheet" href="css/style.css">
+    <title>Portfolio</title>
 </head>
+
 <body>
     <div class="wrapper">
-
-        <!-- Header Section Starts Here -->
+        <!-- Header Section -->
         <header>
             <div class="container">
                 <div class="row">
-                    <div class="col-lg-3">
-                        <div class="logo">
-                            <img src="img/logo.png" alt="sumip" title="sumip">
+                    <div class="col-lg-2">
+                        <div class="header__logo"><img src="./images/logo.png
+                        " alt="Sumip Chaudhary" title="Sumip">
                         </div>
                     </div>
-
-                    <div class="col-lg-9">
-                        <nav>
+                    <div class="col-lg-10">
+                        <nav class="nav">
                             <ul>
-                                <li>
-                                    <a href="#">Home</a>
-                                </li>
-                                <li>
-                                    <a href="#">About Me</a>
-                                </li>
-                                <li>
-                                    <a href="#">Services</a>
-                                </li>
-                                <li>
-                                    <a href="#">Portfolio</a>
-                                </li>
-                                <li>
-                                    <a href="#">My Resume</a>
-                                </li>
-                                <li>
-                                    <a href="#">Book Appointment</a>
-                                </li>
+                                <li><a href="/">Home</a></li>
+                                <li><a href="/about-me">About Me</a></li>
+                                <li><a href="/services">Services</a></li>
+                                <li><a href="/portfolios">Portfolios</a></li>
+                                <li><a href="/my-resume">Resume</a></li>
+                                <li><a href="/book-appointment">Book Appointment</a></li>
                             </ul>
                         </nav>
-
                     </div>
                 </div>
             </div>
         </header>
-        <!-- Header Section Ends Here -->
 
-
-        <!-- Banner Section Starts Here -->
+        <!-- Banner Section -->
         <section class="banner">
             <div class="container">
                 <div class="row">
                     <div class="col-lg-6">
                         <div class="banner-content">
-                            <h4>UX/UI DESIGNER</h4>
-                            <h1>
-                                <span>Hey! I am</span>
-                                <span>Code With sumip</span>
-                            </h1>
-                            <p>
-                                I'm creative designer based in Nepal, and I'm very passsionate and dedicated to my work.
-                            </p>
-                            <a href="#">BUY ME COFFEE</a>
+                            <div class="heading">
+                                <h4>UI/UX Designer</h4>
+                                <h2>
+                                    <span>Hey! <img
+                                            src="https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/240/apple/325/waving-hand_1f44b.png"
+                                            alt="" height="70px"></span>
+                                    <span>Code with Sumip</span>
+                                </h2>
+                                <p>I'm creative designer based in Nepal, and I'm very passsionate and dedicated to my
+                                    work.</p>
 
+                                <a class="banner__content-link" href="/book-appointment">Buy Me Coffee</a>
+                            </div>
                         </div>
                     </div>
                     <div class="col-lg-6">
                         <div class="banner-thumbnail">
-                            <img src="img/banner-man-one.png">
-                            
+                            <img src="./images/banner-man-one.png" alt="">
                         </div>
                     </div>
                 </div>
             </div>
-
         </section>
-        <!-- Banner Section Ends Here -->
 
-
-        <!-- About Me Section Starts Here -->
-        <section class="about-me">
+        <!-- Profile Section -->
+        <section class="profile">
             <div class="container">
                 <div class="row">
                     <div class="col-lg-6">
-                        <div class="about-me-profile">
-                            <div class="profile-image">
-                                <img src="img/imgp.jpg" alt="">
-                            </div>
+                        <div class="profile__thumbnail"><img src="./images/about-us-img-one.jpg" alt="Code with Sumip">
                             <div class="circle-box">
-                                <span>6 Years</span>
-                                <span>of Experience</span>
+                                <h4><span>6 Years</span><span>Of Experience</span></h4>
                             </div>
                         </div>
                     </div>
                     <div class="col-lg-6">
-                    <div class="about-me-content">
-                        <h4>I'M A DEVELOPER</h4>
-                        <h2>
-                            <span>I Develop Ideas</span>
-                            <span>That Help People</span>
-
-                        </h2>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident quas beatae quo numquam, excepturi ipsum ratione non quae deserunt laborum animi voluptatibus ex quos, dolore alias vitae, maxime natus eligendi.
-                        </p>
-
-                        <!-- bootstrap tab -->
+                        <div class="about-me-content">
+                            <h4>I'm a Developer</h4>
+                            <h2>
+                                <span>I develop ideas</span>
+                                <span>That help people</span>
+                            </h2>
+                            <p>Sed aliqut quis diam sit amet blandit. Suspendsiss agitts magna et efficitur agets. Inter
+                                laoreet ligual eu ultrices gravida.</p>
+                        </div>
                         <div class="about-me-tabs">
-                            <!-- Tab -->
+                            <!-- Nav tabs -->
                             <ul class="nav nav-tabs" role="tablist">
-                                <li role="presentation" class="active">
-                                    <a href="#mydetails" aria-controls="mydetails" role="tab" data-toggle="tab">My Details</a>
-                                </li>
-
-                                <li role="presentation" >
-                                    <a href="#myawards" aria-controls="myawards" role="tab" data-toggle="tab">My Awards</a>
-                                </li>
-
-                                <li role="presentation" >
-                                    <a href="#myskills" aria-controls="myskills" role="tab" data-toggle="tab">My Skills</a>
-                                </li>
+                                <li role="presentation" class="active"><a href="#mydetails" aria-controls="mydetails"
+                                        role="tab" data-toggle="tab">MY DETAILS</a></li>
+                                <li role="presentation"><a href="#myawards" aria-controls="myawards" role="tab"
+                                        data-toggle="tab">MY AWARD</a></li>
+                                <li role="presentation"><a href="#myskills" aria-controls="myskills" role="tab"
+                                        data-toggle="tab">MY SKILLS</a></li>
                             </ul>
 
-                            <!-- Tab Content-->
+                            <!-- Tab panes -->
                             <div class="tab-content">
                                 <div role="tabpanel" class="tab-pane active" id="mydetails">
-                                    <h1>My Details Content</h1>
+                                    <div class="row">
+                                        <div class="col-lg-6">
+                                            <span>Name:</span>
+                                            <label>Sumip Chaudhary</label>
+                                        </div>
+                                        <div class="col-lg-6">
+                                            <span>Phone Number:</span>
+                                            <label>+9779840121389</label>
+                                        </div>
+                                        <div class="col-lg-6">
+                                            <span>Email:</span>
+                                            <label>Sumip121pok@gmail.com</label>
+                                        </div>
+                                        <div class="col-lg-6">
+                                            <span>Address:</span>
+                                            <label>Shankhamul, Kathmandu</label>
+                                        </div>
+                                        <div class="col-lg-6">
+                                            <span>Language:</span>
+                                            <label>Nepali, English</label>
+                                        </div>
+                                        <div class="col-lg-6">
+                                            <span>Nationality:</span>
+                                            <label>Nepali</label>
+                                        </div>
+                                    </div>
                                 </div>
                                 <div role="tabpanel" class="tab-pane" id="myawards">
-                                    <h1>My Awards Content</h1>
+                                    <div class="row">
+                                        <div class="col-lg-6">
+                                            <span>2022</span>
+                                            <label>Carimgignac Photojournalism</label>
+                                        </div>
+                                        <div class="col-lg-6">
+                                            <span>2021</span>
+                                            <label>HIPA International Photography</label>
+                                        </div>
+                                        <div class="col-lg-6">
+                                            <span>2020</span>
+                                            <label>International Photography Gran</label>
+                                        </div>
+                                        <div class="col-lg-6">
+                                            <span>2016</span>
+                                            <label>Nikon Small World Competition</label>
+                                        </div>
+                                    </div>
                                 </div>
                                 <div role="tabpanel" class="tab-pane" id="myskills">
-                                    <h1>My Skills Content</h1>
-                                </div>
+                                    <div class="row">
+                                        <div class="skill">
+                                            <div class="col-lg-12">
+                                                <h2>
+                                                    Web Development
+                                                    <span>75%</span>
+                                                </h2>
+                                                <span class="progressbar">
+                                                    <div class="progress" role="progressbar" aria-label="Info example"
+                                                        aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">
+                                                        <div class="progress-bar bg-info" style="width: 75%"></div>
+                                                    </div>
 
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <!-- About Me Section Ends Here -->
+                                                </span>
+                                            </div>
+                                        </div>
+                                        <div class="skill">
+                                            <div class="col-lg-12">
+                                                <h2>
+                                                    App Development
+                                                    <span>90%</span>
+                                                </h2>
+                                                <span class="progressbar">
+                                                    <div class="progress" role="progressbar" aria-label="Info example"
+                                                        aria-valuenow="90" aria-valuemin="0" aria-valuemax="100">
+                                                        <div class="progress-bar bg-info" style="width: 90%"></div>
+                                                    </div>
 
+                                                </span>
+                                            </div>
+                                        </div>
+                                        <div class="skill">
+                                            <div class="col-lg-12">
+                                                <h2>
+                                                    Database
+                                                    <span>50%</span>
+                                                </h2>
+                                                <span class="progressbar">
+                                                    <div class="progress" role="progressbar" aria-label="Info example"
+                                                        aria-valuenow="50" aria-valuemin="0" aria-valuemax="100">
+                                                        <div class="progress-bar bg-info" style="width: 50%"></div>
+                                                    </div>
 
-        <!-- Achivement Section Starts Here -->
-        <section class="achivement">
-            <div class="container">
-            <div class="row">
-                    <div class="col-lg-3">
-                        <div class="achivement-content">
-                            <span>958</span>
-                            <span>Projects 
-                                <span>Completed
-                                </span>
-                            </span>
-                        </div>
-                    </div>
-                        <div class="col-lg-3">
-                            <div class="achivement-content">
-                                <span>855</span>
-                                <span>Our Happy 
-                                    <span>Clients</span>
-                                </span>
-                            </div>
-                        </div>
-                            <div class="col-lg-3">
-                                <div class="achivement-content">
-                                    <span>1120</span>
-                                    <span>Cup of
-                                         <span>Coffee For Us</span>
-                                        </span>
-                                </div>
-                            </div>
-                                <div class="col-lg-3">
-                                    <div class="achivement-content">
-                                        <span>698</span>
-                                        <span>Clients Work 
-                                            <span>With Us</span>
-                                        </span>
+                                                </span>
+                                            </div>
+                                        </div>
                                     </div>
-                                 </div>
-                
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
+        </section>
+
+        <!-- Achievement Section -->
+        <section class="achievement">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-3">
+                        <span class="number">958</span>
+                        <span class="text">
+                            <span>Projects</span>
+                            <span>Completed</span>
+                        </span>
+                    </div>
+                    <div class="col-lg-3">
+                        <span class="number">855</span>
+                        <span class="text">
+                            <span>Our Happy</span>
+                            <span>Clients</span>
+                        </span>
+                    </div>
+                    <div class="col-lg-3">
+                        <span class="number">1120</span>
+                        <span class="text">
+                            <span>Cup Of</span>
+                            <span>Coffee</span>
+                        </span>
+                    </div>
+                    <div class="col-lg-3">
+                        <span class="number">698</span>
+                        <span class="text">
+                            <span>Client</span>
+                            <span>Works</span>
+                        </span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Services Section -->
+        <section class="services">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-6">
+                        <div class="services-description">
+                            <h4>My Services</h4>
+                            <h2><span>What I Provided To</span><span>My Client</span></h2>
+                            <p>It is a long established fact that a reader will be distracted by the readable content of
+                                a page when looking at its layout. Donec cursus odio ac sodalses hendrerit. Lorem isum
+                                dolor sit amet, consecetur adipiscing ellit.</p>
+                            <p>Many desktop publishing packages and web page editors now use Lorem Ipsum as their
+                                default model text, and a search for 'lorem ipsum' will uncover many web sites still in
+                                their infancy.</p>
+                            <a href="/services">View All My Services</a>
+                        </div>
+                    </div>
+                    <div class="col-sm-6">
+                        <div class="services-list">
+                            <div class="services-card">
+                                <div class="services-card-icon"><img src="./images/service-icon1-one.png"
+                                        alt="Web Development" loading="lazy"></div>
+                                <div class="services-card-content">
+                                    <h4>Web Development</h4>
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet harum, tempore sit
+                                        amet consectetur adipisicing.
+                                    </p>
+                                </div><span>01</span>
+                            </div>
+                            <div class="services-card">
+                                <div class="services-card-icon"><img src="./images/service-icon1-one.png"
+                                        alt="Web Development" loading="lazy"></div>
+                                <div class="services-card-content">
+                                    <h4>Mobile App Development</h4>
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet harum, tempore sit
+                                        amet consectetur adipisicing.</p>
+                                </div><span>02</span>
+                            </div>
+                            <div class="services-card">
+                                <div class="services-card-icon"><img src="./images/service-icon1-one.png"
+                                        alt="Web Development" loading="lazy"></div>
+                                <div class="services-card-content">
+                                    <h4>UX/UI Design</h4>
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet harum, tempore sit
+                                        amet consectetur adipisicing.</p>
+                                </div><span>03</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <!-- Portfolio Section -->
+        <section class="portfolio">
+
+            <div class="portfolio-title">
+                <h4>My Work</h4>
+                <span>See my portfolio</span>
+            </div>
+            <div class="slider">
+                <div id="portfolio-slider" class="owl-carousel owl-theme">
+                    <div class="content">
+                        <div class="portfolio-image">
+                            <img src="./images/portfolio1.jpg" alt="P" loading="lazy">
+                        </div>
+                        <div class="portfolio-description">
+                            <span>Software Development</span>
+                            <h4>Project Management Dashboard</h4>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eveniet saepe aliquid
+                                debitis voluptas minima soluta dignissimos.
+                            </p>
+                            <a href="/portfolios">View Case Study</a>
+                        </div>
+                    </div>
+                    <div class="content">
+                        <div class="portfolio-image">
+                            <img src="./images/portfolio2.jpg" alt="P" loading="lazy">
+                        </div>
+                        <div class="portfolio-description">
+                            <span>Software Development</span>
+                            <h4>Project Management Dashboard</h4>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eveniet saepe aliquid
+                                debitis voluptas minima soluta dignissimos.
+                            </p>
+                            <a href="/portfolios">View Case Study</a>
+                        </div>
+                    </div>
+                    <div class="content">
+                        <div class="portfolio-image">
+                            <img src="./images/portfolio3.jpg" alt="P" loading="lazy">
+                        </div>
+                        <div class="portfolio-description">
+                            <span>Software Development</span>
+                            <h4>Project Management Dashboard</h4>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eveniet saepe aliquid
+                                debitis voluptas minima soluta dignissimos.
+                            </p>
+                            <a href="/portfolios">View Case Study</a>
+                        </div>
+                    </div>
+                    <div class="content">
+                        <div class="portfolio-image">
+                            <img src="./images/portfolio4.jpg" alt="P" loading="lazy">
+                        </div>
+                        <div class="portfolio-description">
+                            <span>Software Development</span>
+                            <h4>Project Management Dashboard</h4>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eveniet saepe aliquid
+                                debitis voluptas minima soluta dignissimos.
+                            </p>
+                            <a href="/portfolios">View Case Study</a>
+                        </div>
+                    </div>
+                    <div class="content">
+                        <div class="portfolio-image">
+                            <img src="./images/portfolio5.jpg" alt="P" loading="lazy">
+                        </div>
+                        <div class="portfolio-description">
+                            <span>Software Development</span>
+                            <h4>Project Management Dashboard</h4>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eveniet saepe aliquid
+                                debitis voluptas minima soluta dignissimos.
+                            </p>
+                            <a href="/portfolios">View Case Study</a>
+                        </div>
+                    </div>
+                    <div class="content">
+                        <div class="portfolio-image">
+                            <img src="./images/portfolio6.jpg" alt="P" loading="lazy">
+                        </div>
+                        <div class="portfolio-description">
+                            <span>Software Development</span>
+                            <h4>Project Management Dashboard</h4>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eveniet saepe aliquid
+                                debitis voluptas minima soluta dignissimos.
+                            </p>
+                            <a href="/portfolios">View Case Study</a>
+                        </div>
+                    </div>
+                    <div class="content">
+                        <div class="portfolio-image">
+                            <img src="./images/portfolio4.jpg" alt="P" loading="lazy">
+                        </div>
+                        <div class="portfolio-description">
+                            <span>Software Development</span>
+                            <h4>Project Management Dashboard</h4>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eveniet saepe aliquid
+                                debitis voluptas minima soluta dignissimos.
+                            </p>
+                            <a href="/portfolios">View Case Study</a>
+                        </div>
+                    </div>
+                    <div class="content">
+                        <div class="portfolio-image">
+                            <img src="./images/portfolio5.jpg" alt="P" loading="lazy">
+                        </div>
+                        <div class="portfolio-description">
+                            <span>Software Development</span>
+                            <h4>Project Management Dashboard</h4>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eveniet saepe aliquid
+                                debitis voluptas minima soluta dignissimos.
+                            </p>
+                            <a href="/portfolios">View Case Study</a>
+                        </div>
+                    </div>
+
+
+                </div>
             </div>
 
         </section>
-        <!-- Achivement Section ENds Here -->
-<!-- Services Section -->
-<section class="services">
-    <div class="container">
-        <div class="row">
-            <div class="col-sm-6">
-                <div class="services-description">
-                    <h4>My Services</h4>
-                    <h2><span>What I Provided To</span><span>My Client</span></h2>
-                    <p>It is a long established fact that a reader will be distracted by the readable content of
-                        a page when looking at its layout. Donec cursus odio ac sodalses hendrerit. Lorem isum
-                        dolor sit amet, consecetur adipiscing ellit.</p>
-                    <p>Many desktop publishing packages and web page editors now use Lorem Ipsum as their
-                        default model text, and a search for 'lorem ipsum' will uncover many web sites still in
-                        their infancy.</p>
-                    <a href="/services">View All My Services</a>
-                </div>
-            </div>
-            <div class="col-sm-6">
-                <div class="services-list">
-                    <div class="services-card">
-                        <div class="services-card-icon"><img src="img/archive.jpg"
-                                alt="Web Development" loading="lazy"></div>
-                        <div class="services-card-content">
-                            <h4>Web Development</h4>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet harum, tempore sit
-                                amet consectetur adipisicing.
-                            </p>
-                        </div><span>01</span>
-                    </div>
-                    <div class="services-card">
-                        <div class="services-card-icon"><img src="img/art.jpg"
-                                alt="Web Development" loading="lazy"></div>
-                        <div class="services-card-content">
-                            <h4>Mobile App Development</h4>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet harum, tempore sit
-                                amet consectetur adipisicing.</p>
-                        </div><span>02</span>
-                    </div>
-                    <div class="services-card">
-                        <div class="services-card-icon"><img src="img/brew.jpg"
-                                alt="Web Development" loading="lazy"></div>
-                        <div class="services-card-content">
-                            <h4>UX/UI Design</h4>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet harum, tempore sit
-                                amet consectetur adipisicing.</p>
-                        </div><span>03</span>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
-
-
-<!-- Portfolio Section -->
-<section class="portfolio">
-
-    <div class="portfolio-title">
-        <h4>My Work</h4>
-        <span>See my portfolio</span>
-    </div>
-    <div class="slider">
-        <div id="portfolio-slider" class="owl-carousel owl-theme">
-            <div class="content">
-                <div class="portfolio-image">
-                    <img src="img/build.jpg" alt="P" loading="lazy">
-                </div>
-                <div class="portfolio-description">
-                    <span>Software Development</span>
-                    <h4>Project Management Dashboard</h4>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eveniet saepe aliquid
-                        debitis voluptas minima soluta dignissimos.
-                    </p>
-                    <a href="/portfolios">View Case Study</a>
-                </div>
-            </div>
-            <div class="content">
-                <div class="portfolio-image">
-                    <img src="img/cars.jpg" alt="P" loading="lazy">
-                </div>
-                <div class="portfolio-description">
-                    <span>Software Development</span>
-                    <h4>Project Management Dashboard</h4>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eveniet saepe aliquid
-                        debitis voluptas minima soluta dignissimos.
-                    </p>
-                    <a href="/portfolios">View Case Study</a>
-                </div>
-            </div>
-            <div class="content">
-                <div class="portfolio-image">
-                    <img src="img/travel.jpg" alt="P" loading="lazy">
-                </div>
-                <div class="portfolio-description">
-                    <span>Software Development</span>
-                    <h4>Project Management Dashboard</h4>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eveniet saepe aliquid
-                        debitis voluptas minima soluta dignissimos.
-                    </p>
-                    <a href="/portfolios">View Case Study</a>
-                </div>
-            </div>
-            <div class="content">
-                <div class="portfolio-image">
-                    <img src="img/brew.jpg" alt="P" loading="lazy">
-                </div>
-                <div class="portfolio-description">
-                    <span>Software Development</span>
-                    <h4>Project Management Dashboard</h4>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eveniet saepe aliquid
-                        debitis voluptas minima soluta dignissimos.
-                    </p>
-                    <a href="/portfolios">View Case Study</a>
-                </div>
-            </div>
-            <div class="content">
-                <div class="portfolio-image">
-                    <img src="img/art.jpg" alt="P" loading="lazy">
-                </div>
-                <div class="portfolio-description">
-                    <span>Software Development</span>
-                    <h4>Project Management Dashboard</h4>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eveniet saepe aliquid
-                        debitis voluptas minima soluta dignissimos.
-                    </p>
-                    <a href="/portfolios">View Case Study</a>
-                </div>
-            </div>
-            <div class="content">
-                <div class="portfolio-image">
-                    <img src="img/archive.jpg" alt="P" loading="lazy">
-                </div>
-                <div class="portfolio-description">
-                    <span>Software Development</span>
-                    <h4>Project Management Dashboard</h4>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eveniet saepe aliquid
-                        debitis voluptas minima soluta dignissimos.
-                    </p>
-                    <a href="/portfolios">View Case Study</a>
-                </div>
-            </div>
-            <div class="content">
-                <div class="portfolio-image">
-                    <img src="img/build.jpg" alt="P" loading="lazy">
-                </div>
-                <div class="portfolio-description">
-                    <span>Software Development</span>
-                    <h4>Project Management Dashboard</h4>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eveniet saepe aliquid
-                        debitis voluptas minima soluta dignissimos.
-                    </p>
-                    <a href="/portfolios">View Case Study</a>
-                </div>
-            </div>
-            <div class="content">
-                <div class="portfolio-image">
-                    <img src="img/cars.jpg" alt="P" loading="lazy">
-                </div>
-                <div class="portfolio-description">
-                    <span>Software Development</span>
-                    <h4>Project Management Dashboard</h4>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eveniet saepe aliquid
-                        debitis voluptas minima soluta dignissimos.
-                    </p>
-                    <a href="/portfolios">View Case Study</a>
-                </div>
-            </div>
-
-
-        </div>
     </div>
 
-</section>
-</div>
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <!-- JS Imports -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@3.3.7/dist/js/bootstrap.min.js"
+        integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
+        crossorigin="anonymous"></script>
+    <script src="./js/owl.carousel.js"></script>
 
     <script>
         $('#myTabs a[href="#mydetails"]').click(function (e) {
@@ -383,34 +444,29 @@
         })
     </script>
 
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-    <!-- its javascript -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@3.3.7/dist/js/bootstrap.min.js"
-        integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
-        crossorigin="anonymous"></script>
-        <script src="slider/owl.carousel.js"></script>
-        <script>
+    <script>
         $('#portfolio-slider').owlCarousel({
-            loop:true,
-            margin:10,
-            responsiveClass:true,
-            responsive:{
-                0:{
-                    items:1,
-                    nav:true
+            loop: true,
+            margin: 0,
+            dotsEach: true,
+            responsiveClass: true,
+            responsive: {
+                0: {
+                    items: 1,
+                    nav: true
                 },
-                600:{
-                    items:3,
-                    nav:false
+                600: {
+                    items: 1,
+                    nav: true
                 },
-                1000:{
-                    items:5,
-                    nav:true,
-                    loop:false
+                1000: {
+                    items: 3,
+                    nav: true,
+                    loop: true
                 }
             }
         })
-        </script>
-   
+    </script>
 </body>
+
 </html>
