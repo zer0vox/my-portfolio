@@ -1,0 +1,271 @@
+*{
+    margin:0;
+    padding: 0;
+}
+
+
+
+/* Header Section */
+header{
+    position: relative;
+    padding: 30px 0;
+    background: white;
+    box-shadow: 0px 1px 10px black;
+    z-index: 1;
+}
+
+nav{
+    margin-top:15px ;
+}
+
+nav ul li{
+    display: inline-block;
+}
+
+nav ul li a{
+    display: inline-block;
+    text-decoration: none;
+    font-weight: 600;
+    margin: 0 15px;
+    background:white;
+    padding: 10px 15px;
+    border-radius: 30px;
+    color: black;
+}
+
+
+/* nav ul li:first-child a{
+    background-color: green;
+}
+
+
+nav ul li:nth-child(2) a{
+    background-color: pink;
+} */
+
+nav ul li:last-child a{
+    background-color: orangered;
+    color: white;
+    text-transform: uppercase;
+}
+
+/*  Banner Section Starts Here */
+.banner{
+    padding: 50px 0;
+    background: #fbe9e9;
+}
+
+
+.banner-thumbnail img{
+width: 100%;
+}
+
+.banner-content{
+    padding-top: 100px;
+}
+
+.banner-content h4{
+    color: red;
+
+}
+
+.banner-content h1{
+    font-size: 60px;
+    color: black;
+    font-weight: 700;
+}
+
+.banner-content h1 span{
+    display: block;
+
+}
+
+.banner-content h1 span:last-child{
+    color: red;
+}
+
+.banner-content p{
+    font-size: 18px;
+    margin-top: 30px;
+    color: black;
+    line-height: 36px;
+
+}
+
+.banner-content a{
+display: inline-block;
+padding: 15px 30px;
+border-radius: 30px;
+background: red;
+color: white;
+text-decoration: none;
+}
+/* Banner Section End Here */
+
+
+
+/* About Me Section Starts Here */
+
+.profile-image img{
+    
+    width: 100%;
+    border-radius: 50px;
+    box-shadow: 0 0 10px black;
+}
+
+.about-me{
+padding: 80px 0;
+background: white;
+}
+
+.about-me-profile{
+    position: relative;
+    padding-right: 80px;
+}
+
+.circle-box{ 
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width:200px;
+    height: 200px;
+    background-color:white;
+    border-radius: 50%;
+    border: red dashed 2px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    /* flex-direction:column; parents div vitra 2 ta child lai tala mathi garney */
+
+}
+
+.circle-box span:first-child{
+    color:red;
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.circle-box span:last-child{
+    color: black;
+    font-size: 24px;
+    font-weight: 500;
+}
+
+
+
+.about-me-content h4{
+    color: #fb7878;
+    font-size: 22px;
+    font-weight: 700;
+}
+
+.about-me-content h2{
+    color:black;
+    font-size: 60px;
+    font-weight: 700;
+}
+
+.about-me-content h2 span{
+    display: block;
+}
+
+.about-me-content p{
+    color: black;
+    font-size: 18px;
+    line-height: 30px;
+    margin-top: 10px;
+}
+
+
+/* .nav-tabs>li>a,
+.nav-tabs>li.active>a, .nav-tabs>li.active>a:focus, .nav-tabs>li.active>a:hover{
+    border:none;
+} */
+
+
+
+/* Achivement Section */
+.achivement{
+    position: relative;
+    padding: 50px 0;
+    background: url(../image/golbal.jpg) no-repeat center center;
+    background-size: cover;
+    
+
+}
+
+
+.achivement::before{
+    content: '';
+    position: absolute;
+    top:0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #5414ac;
+    opacity: 0.8;
+    /* transition: all linear 0.5s; */
+
+}
+
+
+/* .achivement:hover::before{
+    width: 100%;
+} */
+
+.achivement-content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.achivement-content span:first-child{
+    color: #fff;
+    font-size: 48px; 
+    font-weight: 700;
+    margin-right: 15px;
+}
+
+.achivement-content span:last-child{
+    color: #fff;
+    font-size: 18px; 
+ 
+}
+
+.achivement-content span:last-child span{
+    display: block ;
+    font-weight: 400;
+}
+
+/* Achivement Section Ends */
+
+
+/* Portfolio Starts */
+
+.portfolio{
+    padding: 80px 0;
+    background: #fff;
+}
+.portfolio-title{
+    text-align: center;
+}
+
+.portfolio-title h4{
+    color: red;
+    font-size: 22px;
+    font-weight: 700;
+}
+
+.portfolio-title h2{
+    color: black;
+    font-weight: 700;
+    font-size: 48px;
+}
+
+.portfolio-slider item{
+    width: 100px;
+    height: 100px;
+
+}
